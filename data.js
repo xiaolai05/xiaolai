@@ -2,7 +2,7 @@ window.PORTFOLIO_DATA = {
   profile: {
     name: "赖保秀",
     avatarName: "赖保秀",
-    titlePrefix: "赖保秀",
+    titlePrefix: "我是",
     role: "用户运营 / 电商运营 / 内容运营 / 私域运营",
     title: "擅长用户分层、精细化触达、留存转化与数据复盘。",
     summary:
@@ -45,6 +45,12 @@ window.PORTFOLIO_DATA = {
       title: "输出15份周报月报",
       description:
         "搭建GMV、转化率、转介绍占比等核心指标监测机制，支撑达人投放与增长策略迭代。"
+    },
+    {
+      label: "活动策划",
+      title: "单场拉新1000+用户",
+      description:
+        "策划并落地校园求职主题活动，以1500元预算新增小程序注册用户1000+，日活提升30%。"
     }
   ],
   companyAngles: [],
