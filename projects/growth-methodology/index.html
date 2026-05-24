@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>项目详情</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;800&family=Syne:wght@500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../styles.css" />
+  </head>
+  <body class="project-page" data-project="growth-methodology">
+    <div class="site-shell">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a class="brand" href="../../index.html" aria-label="返回首页">
+            <span class="brand-mark">OP</span>
+            <span class="brand-text">运营作品集</span>
+          </a>
+          <nav class="site-nav" aria-label="项目导航">
+            <a href="../../index.html#projects">项目</a>
+            <a href="../../index.html#experience">经历</a>
+            <a href="../../index.html#materials">材料</a>
+            <a href="../../index.html#contact">联系</a>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-header">
+          <div class="container">
+            <p class="breadcrumbs"><a href="../../index.html">首页</a> / 项目详情</p>
+          </div>
+        </section>
+
+        <section class="section" style="padding-top: 12px">
+          <div class="container summary-grid">
+            <div class="project-summary-card" data-reveal>
+              <div class="project-summary-head">
+                <p class="summary-kicker" id="project-type"></p>
+                <h1 id="project-title"></h1>
+                <p class="project-section-intro" id="project-summary"></p>
+                <span class="result-badge" id="project-badge"></span>
+              </div>
+            </div>
+            <aside class="project-summary-card" data-reveal>
+              <p class="summary-kicker">顶部摘要</p>
+              <div class="summary-metrics" id="summary-metrics"></div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section section-alt">
+          <div class="container project-layout">
+            <article class="project-detail-card" data-reveal>
+              <div class="project-section-head">
+                <p class="summary-kicker">问题定义</p>
+                <h2>要解决什么问题，限制条件又是什么</h2>
+              </div>
+              <p class="project-detail-copy" id="challenge-copy"></p>
+              <ul class="detail-list" id="constraint-list"></ul>
+            </article>
+
+            <article class="project-detail-card" data-reveal>
+              <div class="project-section-head">
+                <p class="summary-kicker">我的贡献</p>
+                <h2>把真正负责的动作单独拆出来</h2>
+              </div>
+              <p class="project-section-intro" id="project-intro"></p>
+              <ul class="detail-list" id="contribution-list"></ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">过程证据</p>
+              <h2>把关键阶段拆出来，而不是堆过程稿</h2>
+            </div>
+            <div class="process-grid" id="process-grid"></div>
+          </div>
+        </section>
+
+        <section class="section section-alt">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">结果与影响</p>
+              <h2>优先展示可验证的结果</h2>
+            </div>
+            <div class="outcome-grid" id="outcome-grid"></div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">原始材料</p>
+              <h2>文档里的关键证据也被提炼成网页内容</h2>
+            </div>
+            <div class="artifact-grid" id="project-artifact-grid"></div>
+          </div>
+        </section>
+
+        <section class="section section-alt">
+          <div class="container project-layout">
+            <article class="project-detail-card" data-reveal>
+              <div class="project-section-head">
+                <p class="summary-kicker">复盘</p>
+                <h2>这段经历让我学到了什么</h2>
+              </div>
+              <p class="project-detail-copy" id="project-reflection"></p>
+            </article>
+
+            <article class="project-detail-card" data-reveal>
+              <div class="project-section-head">
+                <p class="summary-kicker">联系入口</p>
+                <h2>如果你想继续聊这个案例</h2>
+              </div>
+              <div class="project-cta">
+                <a class="button button-primary" href="../../index.html#contact">返回联系页</a>
+                <a class="button button-secondary" id="project-contact-email">邮件联系</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">继续浏览</p>
+              <h2>另外两个案例也能补足我的能力边界</h2>
+            </div>
+            <div class="related-grid" id="related-grid"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="../../data.js"></script>
+    <script src="../../site.js"></script>
+  </body>
+</html>
